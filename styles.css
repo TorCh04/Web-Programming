@@ -1,40 +1,37 @@
+
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #276FBF;
+    text-align: center;
+    color: #F6F4F3;
   }
   
   /* Layout */
-  header {
-    width: 100%;
-    background-color: #fff;
-    padding: 1rem;
-  }
-  
-  main {
-    width: 100%;
-    padding: 1rem;
-  }
-  
-  footer {
-    width: 100%;
-    background-color: #ccc;
-    padding: 1rem;
+  section {
+    background-color: #F03A47;
+    margin: 0;
   }
   
   /* Typography */
   h1 {
-    font-size: 2rem;
+    font-size: 48px;
     font-weight: bold;
   }
   
   h2 {
-    font-size: 1.5rem;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 32px;
     font-weight: bold;
   }
   
   p {
-    font-size: 1rem;
+    font-size: 24px;
   }
   
   /* Links */
@@ -45,34 +42,36 @@ body {
   
   a:hover {
     color: #fff;
-    background-color: #000;
   }
 
 img {
-  height: 300px;
+  height: 400px;
   width: auto;
 }
 
-  /* Button Styles */
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.2s;
+ul {
+  list-style-position: inside;
+  font-size: 20px;
 }
 
+  /* Button Styles */
+  button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+
 .button:hover {
-  background-color: #fff;
   color: #000;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 .button:active {
-  background-color: #f0f0f0;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
 }
